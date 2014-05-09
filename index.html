@@ -1,0 +1,868 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en" itemscope itemtype="http://schema.org/Product"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+
+	<!-- Use the .htaccess and remove these lines to avoid edge case issues.
+			 More info: h5bp.com/b/378 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>RH Landing Page</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="humans.txt">
+
+	<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+
+	<!-- Facebook Metadata /-->
+	<meta property="fb:page_id" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:description" content=""/>
+	<meta property="og:title" content=""/>
+
+	<!-- Google+ Metadata /-->
+	<meta itemprop="name" content="">
+	<meta itemprop="description" content="">
+	<meta itemprop="image" content="">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+	<!-- We highly recommend you use SASS and write your custom styles in sass/_custom.scss.
+		 However, there is a blank style.css in the css directory should you prefer -->
+	<link rel="stylesheet" href="css/gumby.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="flexslider.css">
+	
+	<script src="js/libs/jquery-1.10.1.min.js"></script>
+	<script src="flexslider.js"></script>
+	<script src="js/libs/modernizr-2.6.2.min.js"></script>
+	<script src="jquery.countdown.js"></script>
+</head>
+
+<body>
+<div id="intro" class="parallax" gumby-parallax="0.5">
+<div class="navbar" gumby-fixed="top" id="nav1">
+		<div class="row">
+			<a class="toggle" gumby-trigger="#nav1 > .row > ul" href="#"><i class="icon-menu"></i></a>
+			<h1 class="three columns logo">
+				<a href="#">
+					<img src="img/gumby_mainlogo.png" gumby-retina />
+				</a>
+			</h1>
+			<ul class="nine columns">
+				<li class="skiplink" ><a href="#" gumby-goto="#details" gumby-offset="-50">ABOUT</a></li>
+				<li class="skiplink" ><a href="#" gumby-goto="#speakers">SPEAKERS</a></li>
+				<li class="skiplink" ><a href="#" gumby-goto="#vote" gumby-offset="-600">VOTE</a></li>
+				<li class="skiplink" ><a href="#" gumby-goto="#venue" gumby-offset="-600">SCHEDULE</a></li>
+				<li class="skiplink" ><a href="#" gumby-goto="#address" gumby-offset="-600">VENUE</a></li>
+				<li class="skiplink" ><a href="#" gumby-goto="#contact" gumby-offset="-600">CONTACT</a></li>
+			</ul>
+		</div>
+</div>
+
+<div class="flexslider">
+  <ul class="slides">
+    <li>
+	<h1 class="slide-text">Have you voted yet?</h1>
+	<h3 class="slide-text">Vote for the talks you want to hear</h3>
+	</li>
+	<li>
+	<h1 class="slide-text">Fly with us.</h1>
+	<h3 class="slide-text">No seatbelts required.</h3>
+	</li>
+	<li>
+	<h1 class="slide-text">Did you hear?</h1>
+	<h3 class="slide-text">Tech4Africa is coming to Cape Town, Nairobi & Lagos</h3>
+	</li>
+  </ul>
+</div>
+</div>
+<div id="details">
+<div class="row">
+<div class="five columns centered">
+<h4>ABOUT</h4>
+</div>
+<div class="ten columns centered">
+	<h1>Tech, Networking, Fun. Quoi?</h1>
+	
+	<h3>1 July 2014, Nairobi</h3>
+	
+	<h3>3 July 2014, Lagos</h3>
+	
+	<h3>28 August 2014, Cape Town</h3>
+	
+	<h3>8 - 9 October 2014, Johannesburg</h3>
+</div>
+</div>
+<div class="about">
+<div class="row">
+	<div class="four columns">
+		<div class="about-1 image circle">
+		<h1 class="about-icon"><i class="icon-eye"></i></h1>
+		</div>
+		<h4 class="lead">The Vision</h4>
+		<p>We think that the best tech ecosystems in the world have regular events which bring together people in tech to learn, meet new people and have lots of fun.</p> 
+		<p>We don’t like suits and ties, there are no plenaries, committees and chairpeople. We focus on great content and value for all who attend, free wifi, coffee all day, fun at night, and an electric atmosphere you won’t find anywhere else.</p>
+	</div>
+	
+	<div class="four columns">
+		<div class="about-2 image circle">
+		<h1 class="about-icon"><i class="icon-globe"></i></h1>
+		</div>
+		<h4 class="lead">A Manifesto Of Sorts</h4>
+		<p>We think that the best tech ecosystems in the world have regular events which bring together people in tech to learn, meet new people and have lots of fun.</p> 
+		<p>We don’t like suits and ties, there are no plenaries, committees and chairpeople. We focus on great content and value for all who attend, free wifi, coffee all day, fun at night, and an electric atmosphere you won’t find anywhere else.</p>
+	</div>
+	
+	<div class="four columns">
+		<div class="about-3 image circle">
+		<h1 class="about-icon"><i class="icon-book"></i></h1>
+		</div>
+		<h4 class="lead">Learning</h4>
+		<p>We think that the best tech ecosystems in the world have regular events which bring together people in tech to learn, meet new people and have lots of fun.</p> 
+		<p>We don’t like suits and ties, there are no plenaries, committees and chairpeople. We focus on great content and value for all who attend, free wifi, coffee all day, fun at night, and an electric atmosphere you won’t find anywhere else.</p>
+	</div>
+</div>
+<br />
+<div class="row">
+<div class="six columns">
+	<h3>Tech for the hacker generation</h3>
+	
+	<p class="left-text">
+	
+	<p class="left-text">This is not a lowest common denominator event. This is an assertive event. We don't care if the fishbowl doesn't like it.
+	We do not merely aspire to the heady heights of conformity through neutrality, blandness and crass marketing.</p>
+	
+	<p class="left-text">You probably don't even care that this rebellious little event contains no agenda or bullshit and looks only for the finest content we can find.
+	Just go back to schmoozing at your mass marketed, bland, cheaply run watered down "networking functions", and close the browser behind you.
+	Tech4Africa is about breaking rules, upsetting trends and unsettling institutions but first and foremost, great content.
+	The kind of content people talk about.</p>
+	
+	<p class="left-text">If you've read this far, you should view the source. You little beauty.</p> 
+	</p>
+</div>
+
+<div class="six columns">
+	<br />
+	<article class="youtube video">
+		<iframe width="560" height="315" src="http://www.youtube.com/embed/ebYN0chFJp8" frameborder="0" allowfullscreen></iframe>
+	</article>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div id="third">
+
+	<div class="countdown">
+	<div class="time-bomb styled"></div>
+	<h3 class="slide-text">Time to next Tech4Africa</h3>
+	</div>
+
+	<div class="tweet">
+		
+		<div class="row">
+			
+			<div class="centered ten columns">
+			
+				<h1>Be social with us...</h1>
+			
+			</div>
+			
+			<div class="centered ten columns">
+			
+				<div class="medium primary btn icon-left entypo icon-facebook"><a href="#">Facebook</a></div>
+				<div class="medium primary btn icon-left entypo icon-twitter"><a href="#">Twitter</a></div>
+				<div class="medium primary btn icon-left entypo icon-linkedin"><a href="#">LinkedIn</a></div>
+				<div class="medium primary btn icon-left entypo icon-pinterest"><a href="#">Pinterest</a></div>
+				<div class="medium primary btn icon-left entypo icon-gplus"><a href="#">Google+</a></div>
+			
+			</div>
+		
+		</div>
+	</div>
+	
+</div>
+
+<div id="speakers">
+	
+	<div class="row">
+	
+	<div class="centered two columns">
+	
+	<h5 class="slide-text">SPEAKERS</h5>
+	</div>
+	
+	</div>
+	
+	<div class="row">
+	
+	<div class="medium image info btn icon-right entypo icon-right-bold next-button"><a href="javascript:void(0)"></a></div>
+	<div class="medium image info btn icon-left entypo icon-left-bold prev-button"><a href="javascript:void(0)"></a></div>
+	
+	</div>
+	<br /> <br />
+	<div class="carousel">
+	
+	<ul class="slides">
+		
+		<li>
+
+		<div class="row">
+		
+		<div class="three columns">
+		
+		<div class="speaker-info">
+			
+			<img class="image circle" src="img/face01.jpg"></img>
+			<h4 class="slide-text">Jhon Doe</h4>
+			<h6 class="slide-text">Android App Developer</h6>
+			<br />
+			<p class="slide-text">You're melding a raging 400 page Waterfall into a weekly sprint without anyone knowing it. Kanban brings tears of joyous rapture to your eyes. You're the modern Renaissance man.</p>
+		
+		</div>
+		
+		</div>
+		
+		<div class="three columns">
+		
+		<div class="speaker-info">
+			
+			<img class="image circle" src="img/face01.jpg"></img>
+			<h4 class="slide-text">Jane Doe</h4>
+			<h6 class="slide-text">iOS App Developer</h6>
+			<br />
+			<p class="slide-text">You're melding a raging 400 page Waterfall into a weekly sprint without anyone knowing it. Kanban brings tears of joyous rapture to your eyes. You're the modern Renaissance man.</p>
+		
+		
+		</div>
+		
+		</div>
+		
+		<div class="three columns">
+		
+		<div class="speaker-info">
+			
+			<img class="image circle" src="img/face01.jpg"></img>
+			<h4 class="slide-text">Jhon Doe</h4>
+			<h6 class="slide-text">Hacker</h6>
+			<br />
+			<p class="slide-text">You're melding a raging 400 page Waterfall into a weekly sprint without anyone knowing it. Kanban brings tears of joyous rapture to your eyes. You're the modern Renaissance man.</p>
+		
+		
+		</div>
+		
+		</div>
+		
+		<div class="three columns">
+		
+		<div class="speaker-info">
+		
+			<img class="image circle" src="img/face01.jpg"></img>
+			<h4 class="slide-text">Jane Doe</h4>
+			<h6 class="slide-text">SysAdmin</h6>
+			<br />
+			<p class="slide-text">You're melding a raging 400 page Waterfall into a weekly sprint without anyone knowing it. Kanban brings tears of joyous rapture to your eyes. You're the modern Renaissance man.</p>
+		
+		
+		</div>
+		
+		</div>
+		
+		</div>
+		
+		</li>
+		
+		<li>
+
+		<div class="row">
+		
+		<div class="three columns">
+		
+		<div class="speaker-info">
+			
+			<img class="image circle" src="img/face01.jpg"></img>
+			<h4 class="slide-text">Jane Doe</h4>
+			<h6 class="slide-text">Android App Developer</h6>
+			<br />
+			<p class="slide-text">You're melding a raging 400 page Waterfall into a weekly sprint without anyone knowing it. Kanban brings tears of joyous rapture to your eyes. You're the modern Renaissance man.</p>
+		
+		</div>
+		
+		</div>
+		
+		<div class="three columns">
+		
+		<div class="speaker-info">
+			
+			<img class="image circle" src="img/face01.jpg"></img>
+			<h4 class="slide-text">Jhon Doe</h4>
+			<h6 class="slide-text">iOS App Developer</h6>
+			<br />
+			<p class="slide-text">You're melding a raging 400 page Waterfall into a weekly sprint without anyone knowing it. Kanban brings tears of joyous rapture to your eyes. You're the modern Renaissance man.</p>
+			
+		
+		</div>
+		
+		</div>
+		
+		<div class="three columns">
+		
+		<div class="speaker-info">
+			
+			<img class="image circle" src="img/face01.jpg"></img>
+			<h4 class="slide-text">Jane Doe</h4>
+			<h6 class="slide-text">Hacker</h6>
+			<br />
+			<p class="slide-text">You're melding a raging 400 page Waterfall into a weekly sprint without anyone knowing it. Kanban brings tears of joyous rapture to your eyes. You're the modern Renaissance man.</p>
+		
+		
+		</div>
+		
+		</div>
+		
+		<div class="three columns">
+		
+		<div class="speaker-info">
+		
+			<img class="image circle" src="img/face01.jpg"></img>
+			<h4 class="slide-text">Jhon Doe</h4>
+			<h6 class="slide-text">SysAdmin</h6>
+			<br />
+			<p class="slide-text">You're melding a raging 400 page Waterfall into a weekly sprint without anyone knowing it. Kanban brings tears of joyous rapture to your eyes. You're the modern Renaissance man.</p>
+		
+		
+		</div>
+		
+		</div>
+		
+		</div>
+		
+		</li>
+	
+	</ul>
+	
+	</div>
+	
+	<div class="row">
+		
+		<h2 class="slide-text">Speak @ Tech4Africa</h1>
+		<p class="slide-text">
+		In 2013 we opened up our speaker submission process to anyone. We received over 100 speaker submissions from people in 15 countries, which then received over 3500 votes from the tech community.<br />
+		Since we've started, we've looked for speakers from both genders and all ethnic backgrounds. So we're going to say it a little louder this year ;-)
+		</p>
+		
+	</div>
+	
+	<div class="row">
+		
+		<h2 class="slide-text">We're looking for women (and men), from all backgrounds.</h1>
+		<p class="slide-text">
+		By telling your story, you grow your network and increase your domain authority, leveraging a platform focused on authentic content.<br />
+		It doesn't matter whether you're at a large corporate, a small agency, a freelancer, or a student.<br />
+		Tell your story, share your code, showcase your product or solution, or illustrate how you've solved a problem.
+		</p>
+		<div class="medium image rounded info btn icon-left entypo icon-book"><a href="#">Speak @ Tech4Africa</a></div>
+			
+	</div>
+
+</div>
+
+<div id="vote">
+
+	<div class="row">
+	<h5>VOTE</h5>
+	</div>
+	
+	<div class="row">
+	<h2>Vote for the talks you want to listen to at Tech4Africa.</h2>
+	<div class="large primary image rounded btn icon-left entypo icon-alert"><a href="#">VOTE NOW!</a></div>
+	</div>
+
+</div>
+
+<div id="venue">
+
+<section class="tabs">
+	
+	<ul class="tab-nav vanue-selector primary">
+		
+		<li class="active"><a href="#">Dhaka</a></li>
+		
+		<li> <a href="#">Chittagong</a></li>
+		
+		<li><a href="#">Rajshahi</a></li>
+		
+		<li><a href="#">Sylhet</a></li>
+		
+	</ul>
+	
+	<div class="tab-content active">
+	
+	<div class="row">
+	
+	<div class="four columns">
+		<h2>Dhaka</h2>
+		<h3>May 23 2014</h3>
+		<p>All the simple details about event goes here</p>
+	</div>
+	
+	<div class="eight columns">
+	
+	<ul class="cbp_tmtimeline">
+    <li>
+        <time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>18:30</span></time>
+        <div class="cbp_tmicon cbp_tmicon-phone"></div>
+        <div class="cbp_tmlabel">
+            <h4 class="slide-text">Ricebean black-eyed pea</h4>
+            <p>Winter purslane...</p>
+        </div>
+    </li>
+    <li>
+        <time class="cbp_tmtime" datetime="2013-04-11T12:04"><span>12:04</span></time>
+        <div class="cbp_tmicon cbp_tmicon-screen"></div>
+        <div class="cbp_tmlabel">
+            <h4 class="slide-text">Greens radish arugula</h4>
+            <p>Caulie dandelion maize...</p>
+        </div>
+    </li>
+    <li>
+        <time class="cbp_tmtime" datetime="2013-04-13 05:36"><span>05:36</span></time>
+        <div class="cbp_tmicon cbp_tmicon-mail"></div>
+        <div class="cbp_tmlabel">
+            <h4 class="slide-text">Sprout garlic kohlrabi</h4>
+            <p>Parsnip lotus root...</p>
+        </div>
+    </li>
+    <li>
+        <time class="cbp_tmtime" datetime="2013-04-15 13:15"><span>13:15</span></time>
+        <div class="cbp_tmicon cbp_tmicon-phone"></div>
+        <div class="cbp_tmlabel">
+            <h4 class="slide-text">Watercress ricebean</h4>
+            <p>Peanut gourd nori...</p>
+        </div>
+    </li>
+    <li>
+        <time class="cbp_tmtime" datetime="2013-04-16 21:30"><span>21:30</span></time>
+        <div class="cbp_tmicon cbp_tmicon-earth"></div>
+        <div class="cbp_tmlabel">
+            <h4 class="slide-text">Courgette daikon</h4>
+            <p>Parsley amaranth tigernut...</p>
+        </div>
+    </li>
+	</ul>
+	
+	</div>
+	
+	</div>
+	
+	</div>
+	
+	<div class="tab-content">
+	
+	<div class="row">
+	
+	<div class="four columns">
+		<h2>Chittagong</h2>
+		<h3>June 4 2014</h3>
+		<p>All the simple details about event goes here</p>
+	</div>
+	
+	<div class="eight columns">
+	
+	<ul class="cbp_tmtimeline">
+    <li>
+        <time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>18:30</span></time>
+        <div class="cbp_tmicon cbp_tmicon-phone"></div>
+        <div class="cbp_tmlabel">
+            <h4 class="slide-text">Ricebean black-eyed pea 2</h4>
+            <p>Winter purslane...</p>
+        </div>
+    </li>
+    <li>
+        <time class="cbp_tmtime" datetime="2013-04-11T12:04"><span>12:04</span></time>
+        <div class="cbp_tmicon cbp_tmicon-screen"></div>
+        <div class="cbp_tmlabel">
+            <h4 class="slide-text">Greens radish arugula 2</h4>
+            <p>Caulie dandelion maize...</p>
+        </div>
+    </li>
+    <li>
+        <time class="cbp_tmtime" datetime="2013-04-13 05:36"><span>05:36</span></time>
+        <div class="cbp_tmicon cbp_tmicon-mail"></div>
+        <div class="cbp_tmlabel">
+            <h4 class="slide-text">Sprout garlic kohlrabi 2</h4>
+            <p>Parsnip lotus root...</p>
+        </div>
+    </li>
+    <li>
+        <time class="cbp_tmtime" datetime="2013-04-15 13:15"><span>13:15</span></time>
+        <div class="cbp_tmicon cbp_tmicon-phone"></div>
+        <div class="cbp_tmlabel">
+            <h4 class="slide-text">Watercress ricebean 2</h4>
+            <p>Peanut gourd nori...</p>
+        </div>
+    </li>
+    <li>
+        <time class="cbp_tmtime" datetime="2013-04-16 21:30"><span>21:30</span></time>
+        <div class="cbp_tmicon cbp_tmicon-earth"></div>
+        <div class="cbp_tmlabel">
+            <h4 class="slide-text">Courgette daikon 2</h4>
+            <p>Parsley amaranth tigernut...</p>
+        </div>
+    </li>
+	</ul>
+	
+	</div>
+	
+	</div>
+	
+	</div>
+	
+	<div class="tab-content">
+	
+	<div class="row">
+	
+	<div class="four columns">
+		<h2>Rajshahi</h2>
+		<h3>July 1 2014</h3>
+		<p>All the simple details about event goes here</p>
+	</div>
+	
+	<div class="eight columns">
+	
+	<ul class="cbp_tmtimeline">
+    <li>
+        <time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>18:30</span></time>
+        <div class="cbp_tmicon cbp_tmicon-phone"></div>
+        <div class="cbp_tmlabel">
+            <h4 class="slide-text">Ricebean black-eyed pea</h4>
+            <p>Winter purslane...</p>
+        </div>
+    </li>
+    <li>
+        <time class="cbp_tmtime" datetime="2013-04-11T12:04"><span>12:04</span></time>
+        <div class="cbp_tmicon cbp_tmicon-screen"></div>
+        <div class="cbp_tmlabel">
+            <h4 class="slide-text">Greens radish arugula</h4>
+            <p>Caulie dandelion maize...</p>
+        </div>
+    </li>
+    <li>
+        <time class="cbp_tmtime" datetime="2013-04-13 05:36"><span>05:36</span></time>
+        <div class="cbp_tmicon cbp_tmicon-mail"></div>
+        <div class="cbp_tmlabel">
+            <h4 class="slide-text">Sprout garlic kohlrabi</h4>
+            <p>Parsnip lotus root...</p>
+        </div>
+    </li>
+    <li>
+        <time class="cbp_tmtime" datetime="2013-04-15 13:15"><span>13:15</span></time>
+        <div class="cbp_tmicon cbp_tmicon-phone"></div>
+        <div class="cbp_tmlabel">
+            <h4 class="slide-text">Watercress ricebean</h4>
+            <p>Peanut gourd nori...</p>
+        </div>
+    </li>
+    <li>
+        <time class="cbp_tmtime" datetime="2013-04-16 21:30"><span>21:30</span></time>
+        <div class="cbp_tmicon cbp_tmicon-earth"></div>
+        <div class="cbp_tmlabel">
+            <h4 class="slide-text">Courgette daikon</h4>
+            <p>Parsley amaranth tigernut...</p>
+        </div>
+    </li>
+	</ul>
+	
+	</div>
+	
+	</div>
+	
+	</div>
+	
+	<div class="tab-content">
+	
+	<div class="row">
+	
+	<div class="four columns">
+		<h2>Sylhet</h2>
+		<h3>August 10 2014</h3>
+		<p>All the simple details about event goes here</p>
+	</div>
+	
+	<div class="eight columns">
+	
+	<ul class="cbp_tmtimeline">
+    <li>
+        <time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>18:30</span></time>
+        <div class="cbp_tmicon cbp_tmicon-phone"></div>
+        <div class="cbp_tmlabel">
+            <h4 class="slide-text">Ricebean black-eyed pea 2</h4>
+            <p>Winter purslane...</p>
+        </div>
+    </li>
+    <li>
+        <time class="cbp_tmtime" datetime="2013-04-11T12:04"><span>12:04</span></time>
+        <div class="cbp_tmicon cbp_tmicon-screen"></div>
+        <div class="cbp_tmlabel">
+            <h4 class="slide-text">Greens radish arugula 2</h4>
+            <p>Caulie dandelion maize...</p>
+        </div>
+    </li>
+    <li>
+        <time class="cbp_tmtime" datetime="2013-04-13 05:36"><span>05:36</span></time>
+        <div class="cbp_tmicon cbp_tmicon-mail"></div>
+        <div class="cbp_tmlabel">
+            <h4 class="slide-text">Sprout garlic kohlrabi 2</h4>
+            <p>Parsnip lotus root...</p>
+        </div>
+    </li>
+    <li>
+        <time class="cbp_tmtime" datetime="2013-04-15 13:15"><span>13:15</span></time>
+        <div class="cbp_tmicon cbp_tmicon-phone"></div>
+        <div class="cbp_tmlabel">
+            <h4 class="slide-text">Watercress ricebean 2</h4>
+            <p>Peanut gourd nori...</p>
+        </div>
+    </li>
+    <li>
+        <time class="cbp_tmtime" datetime="2013-04-16 21:30"><span>21:30</span></time>
+        <div class="cbp_tmicon cbp_tmicon-earth"></div>
+        <div class="cbp_tmlabel">
+            <h4 class="slide-text">Courgette daikon 2</h4>
+            <p>Parsley amaranth tigernut...</p>
+        </div>
+    </li>
+	</ul>
+	
+	</div>
+	
+	</div>
+	
+	</div>
+	
+</section>
+
+</div>
+
+<div id="address">
+	
+	<div class="address-text">
+	
+	<div class="row">
+	
+	<h5 class="slide-text">Johannesburg Venue</h5>
+	<h5 class="slide-text">Tech4Africa Will Be Held At</h5>
+	<h2 class="slide-text">SciBono Discovery Center</h2>
+	<h5 class="slide-text">Mary Fitzgerald Square, Newtown, Johannesburg</h5>
+
+	</div>
+	
+	</div>
+
+</div>
+
+<div id="contact">
+	
+	<div class="row">
+	
+	<h2 class="slide-text">Get In Touch...</h2>
+	
+	<p class="slide-text">Feel free to get in touch with any questions you may have.</p>
+	
+	<br />
+	
+	</div>
+	
+	<div class="row">
+		<div class="four columns">
+		
+		<li class="append field">
+			<span class="adjoined"><i class="icon-user"></i></span>
+			<input class="text input" type="email" placeholder="Full Name" />
+		</li>
+		
+		</div>
+		
+		<div class="four columns">
+		
+		<li class="append field">
+			<span class="adjoined">@</span>
+			<input class="email input" type="email" placeholder="Email Address" />
+		</li>
+		
+		</div>
+		
+		<div class="four columns">
+		
+		<li class="append field">
+			<span class="adjoined"><i class="icon-mail"></i></span>
+			<input class="text input" type="email" placeholder="Subject" />
+		</li>
+		
+		</div>
+		
+	</div>
+	
+	<div class="row">
+	
+		<li class="field">
+			<textarea class="input textarea" placeholder="Write your message here..."></textarea>
+		</li>
+	
+	</div>
+	
+	<div class="row">
+	
+	<div class="large primary btn image rounded"><a href="#">Submit</a></div>
+	
+	</div>
+	
+	<br /><br />
+	
+	<div class="row">
+		
+		<div class="four columns">
+			
+			<p class="slide-text"><i class="icon-phone"></i>Phone: 880 123 456789</p>
+		
+		</div>
+		
+		<div class="four columns">
+		
+			<p class="slide-text"><i class="icon-mobile"></i>Mobile: 880 123 456789</p>
+		
+		</div>
+	
+		<div class="four columns">
+		
+			<p class="slide-text"><i class="icon-mail"></i>Email: email@example.com</p>
+		
+		</div>
+		
+	</div>
+	
+</div>
+
+<div id="footer">
+	
+	<div class="row">
+	<p class="slide-text">© 2010 - 2014 Tech4Africa, All rights reserved.</p> 
+	</div>	
+	
+</div>
+
+	
+
+	<!--
+	Include gumby.js followed by UI modules followed by gumby.init.js
+	Or concatenate and minify into a single file -->
+	<script gumby-touch="js/libs" src="js/libs/gumby.js"></script>
+	<script src="js/libs/ui/gumby.retina.js"></script>
+	<script src="js/libs/ui/gumby.fixed.js"></script>
+	<script src="js/libs/ui/gumby.skiplink.js"></script>
+	<script src="js/libs/ui/gumby.toggleswitch.js"></script>
+	<script src="js/libs/ui/gumby.checkbox.js"></script>
+	<script src="js/libs/ui/gumby.radiobtn.js"></script>
+	<script src="js/libs/ui/gumby.tabs.js"></script>
+	<script src="js/libs/ui/gumby.navbar.js"></script>
+	<script src="js/libs/ui/jquery.validation.js"></script>
+	<script src="js/libs/gumby.init.js"></script>
+
+	<!--
+	Google's recommended deferred loading of JS
+	gumby.min.js contains gumby.js, all UI modules and gumby.init.js
+
+	Note: If you opt to use this method of defered loading,
+	ensure that any javascript essential to the initial
+	display of the page is included separately in a normal
+	script tag.
+
+	<script type="text/javascript">
+	function downloadJSAtOnload() {
+	var element = document.createElement("script");
+	element.src = "js/libs/gumby.min.js";
+	document.body.appendChild(element);
+	}
+	if (window.addEventListener)
+	window.addEventListener("load", downloadJSAtOnload, false);
+	else if (window.attachEvent)
+	window.attachEvent("onload", downloadJSAtOnload);
+	else window.onload = downloadJSAtOnload;
+	</script> -->
+
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+
+	<!-- Change UA-XXXXX-X to be your site's ID -->
+	<!--<script>
+	window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+	Modernizr.load({
+	  load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+	});
+	</script>-->
+
+	<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+	   chromium.org/developers/how-tos/chrome-frame-getting-started -->
+	<!--[if lt IE 7 ]>
+	<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+	<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+	<![endif]-->
+	<script>
+	$(window).load(function() {
+	$('.flexslider').flexslider({
+    animation: "slide",
+	controlNav: false
+	});
+	});
+	</script>
+	
+	<script>
+	$(window).load(function() {
+	$('.carousel').flexslider({
+    animation: "slide",
+	controlNav: false,
+	directionNav: false,
+	slideshow: false,
+	});
+	});
+	</script>
+	
+	<script>
+	$('.prev-button').on('click', function(){
+    $('.carousel').flexslider('prev')
+    return false;
+	})
+
+	$('.next-button').on('click', function(){
+    $('.carousel').flexslider('next')
+    return false;
+	})
+	</script>
+	
+	<script type="text/javascript">
+      $(function() {
+        var endDate = "July 6, 2014 00:00:01";
+
+        $('.time-bomb.styled').countdown({
+          date: endDate,
+          render: function(data) {
+            $(this.el).html("<div>" + this.leadingZeros(data.days, 2) + " <span>Days</div><div>" + this.leadingZeros(data.hours, 2) + " <span>Hours</span></div><div>" + this.leadingZeros(data.min, 2) + " <span>Minutes</span></div><div>" + this.leadingZeros(data.sec, 2) + " <span>Seconds</span></div>");
+          }
+        });
+
+      });
+    </script>
+	
+  </body>
+</html>
