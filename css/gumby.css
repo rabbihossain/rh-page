@@ -1249,7 +1249,7 @@ img { -ms-interpolation-mode: bicubic; }
   .navbar a.toggle:active, .navbar a.toggle.active { background: #3e4043; } }
 
 .navbar .logo { display: inline-block; margin: 0 2.12766% 0 0; padding: 0; height: 60px; line-height: 58px; }
-.navbar .logo a { display: block; padding: 0; overflow: hidden; height: 60px; line-height: 58px; }
+.navbar .logo a { display: block; padding: 0; overflow: hidden; height: 60px; line-height: 58px; color: #fff; text-shadow: 1px 1px #000; }
 .navbar .logo a img { max-height: 95%; }
 @media only screen and (max-width: 767px) { .navbar .logo { float: left; display: inline; }
   .navbar .logo a { padding: 0; }
